@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header > .cabecera{
+  height: 130px;
+  width: 100%;
+  background:rgb(71, 105, 204);
+  background:-webkit-linear-gradient(top,#4a68d2,#658cc6);
+  /*PREFIJOSSSS*/
+  border-bottom:3px solid #be4394;
+}
+
+.cabecera > h1{
+  display: inline-block;
+  font-size: 3em;
+  color: #fff;
+  padding: 39px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.menu-mascot{
+background:#6da9bb;;
+  overflow: hidden;
+}
+
+.menu-mascot ul{
+    list-style: none;
+}
+
+.menu-mascot ul li{
+  float: left;
+}
+
+.menu-mascot ul li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu-mascot ul li a:hover{
+    background: #9999ff;
+    cursor: pointer;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background: url('../../MULTIMEDIA/imagenes/Fondo-de-pantalla-Perros-05.jpg');
+    margin-bottom: 10px;
+    box-shadow:rgba(0, 0, 0, 0.4) 0 10px 25px;
+}
+
+.contBanner{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 72%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    width: 24%;
+    height: 130px;
+}
+
+.banner .contBanner p{
+    font-size: 13px;
+}
